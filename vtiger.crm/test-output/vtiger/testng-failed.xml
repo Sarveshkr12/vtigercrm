@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [vtiger]">
+  <test thread-count="5" name="vtiger test(failed)">
+    <classes>
+      <class name="TestScript.OrganizationAutomation">
+        <methods>
+          <include name="verifyOrgCreationwithRequiredField"/>
+          <include name="aftertestclass"/>
+          <include name="beforeTestcase"/>
+          <include name="afterTestcase"/>
+          <include name="verifyOrganizationCreationWithCancelButton"/>
+          <include name="verifyOrgcreationwithoutRequiredField"/>
+          <include name="beforetestclass"/>
+        </methods>
+      </class> <!-- TestScript.OrganizationAutomation -->
+    </classes>
+  </test> <!-- vtiger test(failed) -->
+</suite> <!-- Failed suite [vtiger] -->

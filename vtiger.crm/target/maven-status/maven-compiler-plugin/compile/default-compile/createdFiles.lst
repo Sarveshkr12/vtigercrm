@@ -1,0 +1,8 @@
+PageWiseClasses\A.class
+PageWiseClasses\BasePage.class
+PageWiseClasses\HomePage.class
+PageWiseOr\BasePageOr.class
+PageWiseOr\LoginPageOr.class
+PageWiseClasses\LeadPage.class
+PageWiseClasses\LoginPage.class
+WebUtil_Generic\GenericMethods.class
