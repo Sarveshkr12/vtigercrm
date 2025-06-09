@@ -5,13 +5,25 @@
     <classes>
       <class name="TestScript.OrganizationAutomation">
         <methods>
+          <include name="verifyOrgCreationwithRequiredField"/>
           <include name="aftertestclass"/>
           <include name="beforeTestcase"/>
           <include name="afterTestcase"/>
           <include name="verifyOrganizationCreationWithCancelButton"/>
+          <include name="verifyOrgcreationwithoutRequiredField"/>
           <include name="beforetestclass"/>
         </methods>
       </class> <!-- TestScript.OrganizationAutomation -->
+      <class name="TestScript.LeadAutomationScript">
+        <methods>
+          <include name="aftertestclass"/>
+          <include name="CreateLeadWithRequiredFields"/>
+          <include name="beforeTestcase"/>
+          <include name="afterTestcase"/>
+          <include name="CreateLeadWithAllFields"/>
+          <include name="beforetestclass"/>
+        </methods>
+      </class> <!-- TestScript.LeadAutomationScript -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

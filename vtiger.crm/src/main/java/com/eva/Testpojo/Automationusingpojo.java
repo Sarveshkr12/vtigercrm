@@ -138,7 +138,6 @@ try {
 		}
 		
 		/// search pojo creation from j son //it,s make json response to class response
-		
 		// that is for serialization java object to j_son object
 
 		Response jsonrsponse =	RestAssured.given().auth().basic("practise@ecomsarvesh.com", "343434").contentType("application/json").body(jsonData).accept("application/json").post("https://ecomsarvesh.agilecrm.com/dev/api/contacts/");

@@ -5,10 +5,10 @@
     <classes>
       <class name="TestScript.OrganizationAutomation">
         <methods>
+          <include name="verifyOrgCreationwithRequiredField"/>
           <include name="aftertestclass"/>
           <include name="beforeTestcase"/>
           <include name="afterTestcase"/>
-          <include name="verifyOrganizationCreationWithCancelButton"/>
           <include name="beforetestclass"/>
         </methods>
       </class> <!-- TestScript.OrganizationAutomation -->
